@@ -78,9 +78,8 @@ const defaultDataset = {
   "myprofile": {
       answers: [
           {content: "趣味は？", nextId: "hobby"},
-          {content: "前職は？", nextId: "former-job"},
-          {content: "連絡したい！", nextId: "mail"},
           {content: "秘密教えて！", nextId: "secret"},
+          {content: "連絡したい！", nextId: "mail"},
           {content: "最初の質問に戻る", nextId: "init"}
       ],
       question: "22歳、阿部龍之介です！",
@@ -91,13 +90,6 @@ const defaultDataset = {
         {content: "最初の質問に戻る", nextId: "init"}
     ],
     question: "音楽（特に日本のヒップホップ）が好きで、自分で作ったり、ライブによく行ってます🕺🏻",
-  },
-  "former-job": {
-    answers: [
-        {content: "連絡したい！", nextId: "mail"},
-        {content: "最初の質問に戻る", nextId: "init"}
-    ],
-    question: "公務員（市役所職員）をしていました！窓口業務だったのでコミュニケーション能力に自信があります🙂",
   },
   "mail": {
     answers: [
