@@ -31,7 +31,7 @@ const FormDialog = (props) => {
             'お問い合わせ内容：\n' + description
     }
 
-    const url = 'https://hooks.slack.com/services/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'
+    const url = process.env.REACT_APP_SLACK_URL
 
     fetch(url, {
       method: 'POST',
